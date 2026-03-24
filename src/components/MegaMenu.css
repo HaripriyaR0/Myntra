@@ -1,0 +1,41 @@
+.mega-menu {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 900px;
+  background: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+  padding: 30px 40px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  z-index: 999;
+}
+
+/* COLUMN */
+.menu-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* TITLE */
+.menu-column h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ff3f6c;
+  margin-bottom: 10px;
+}
+
+/* ITEMS */
+.menu-column p {
+  font-size: 13px;
+  color: #282c3f;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+/* HOVER */
+.menu-column p:hover {
+  color: #000;
+  font-weight: 600;
+}

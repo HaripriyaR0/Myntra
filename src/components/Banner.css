@@ -1,0 +1,136 @@
+/* 🔥 TOP STRIP */
+.home-top-banner img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+/* 🔥 MAIN CAROUSEL */
+.home-carousel {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+  background: #f5f5f6;
+}
+
+/* SLIDE */
+.home-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.home-slide.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* LEFT IMAGE */
+.home-slide img {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* RIGHT SIDE PANEL */
+.home-overlay {
+  width: 30%;
+  background: #fff;
+  display: flex;
+  align-items: center; /* 🔥 vertical center */
+  justify-content: flex-start;
+}
+
+/* CONTENT */
+.home-content {
+  width: 70%;
+  margin-left: 40px; /* 🔥 spacing from left */
+  font-family: "Times New Roman", serif;
+}
+
+/* TITLE (HAND BAGS STYLE) */
+.home-content h1 {
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #222;
+}
+
+/* SUBTEXT */
+.home-content p {
+  font-size: 18px;
+  color: #777;
+  margin: 15px 0;
+}
+
+/* LINE */
+.home-content::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #ddd;
+  margin: 20px 0;
+}
+
+/* EXPLORE */
+.home-content button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #999;
+  cursor: pointer;
+}
+
+/* NAV BUTTONS */
+.home-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.home-nav.left {
+  left: 10px;
+}
+
+.home-nav.right {
+  right: 10px;
+}
+
+.home-dots {
+  position: absolute;
+  bottom: 20px;              /* distance from bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;               /* 🔥 IMPORTANT (bring above slides) */
+  display: flex;
+  align-items: center;
+}
+
+/* normal dot */
+.home-dot {
+  height: 8px;
+  width: 8px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: #888;          /* visible color */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* active dot (selected slide) */
+.home-dot.active {
+  width: 20px;               /* long pill shape */
+  height: 8px;
+  border-radius: 10px;
+  background: #000;          /* dark active color */
+}
+

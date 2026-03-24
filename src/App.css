@@ -1,0 +1,13 @@
+body {
+  background-color: white;
+}
+
+.container {
+  background-color: rgb(215, 148, 148);
+}
+.container h1 {
+  color: black;
+}
+.container h2 {
+  color: red;
+}/*# sourceMappingURL=App.css.map */

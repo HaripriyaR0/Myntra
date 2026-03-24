@@ -1,0 +1,176 @@
+.deals {
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+.deals h2 {
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Carousel */
+.carousel-container {
+  overflow: hidden;
+}
+
+.deals-slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  display: flex;
+  gap: 15px;
+  min-width: 100%;
+}
+
+.banner-card {
+  position: relative;
+  width: 20%;
+  height: 340px;
+  overflow: hidden;
+  background: #eee;
+}
+
+.banner-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Overlay box */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  padding: 12px;
+  text-align: center;
+}
+
+/* Brand logos row */
+.logo-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Divider line */
+.line {
+  height: 1px;
+  background: #ddd;
+  margin: 6px 0;
+}
+
+/* Description */
+.desc {
+  font-size: 13px;
+  margin: 5px 0;
+  color: #333;
+}
+
+/* Offer */
+.overlay h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/* Overlay (bottom white box) */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.brands {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.desc {
+  font-size: 13px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.overlay h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Dots */
+.dots {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  margin: 5px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: black;
+}
+
+
+
+
+
+/* .deals {
+  padding: 20px;
+  text-align: center;
+}
+
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.deals-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+/* Make each card fit 5 per row */
+/* .slide > * {
+  flex: 0 0 calc(20% - 12px);
+} */
+
+/* Dots */
+/* .dots {
+  margin-top: 15px;
+} */
+/* 
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 6px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #ff3f6c;
+} */ 

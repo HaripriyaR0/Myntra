@@ -1,0 +1,89 @@
+.login-page {
+  background: #fdeff2;
+  min-height: calc(100vh - 72px); /* subtract navbar height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 350px;
+  background: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+.login-banner {
+  width: 100%;
+  height: 67px;
+  object-fit: contain;  /* ✅ CHANGE HERE */
+  /* background: #fff;     optional */
+}
+
+
+
+.login-body {
+  padding: 20px;
+}
+
+.login-body h3 {
+  margin-bottom: 20px;
+}
+
+.login-body span {
+  color: #888;
+}
+
+.mobile-input {
+  display: flex;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.mobile-input span {
+  padding: 10px;
+  background: #f5f5f5;
+}
+
+.mobile-input input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+
+.terms {
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #ff3f6c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.help-text {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.help-text span {
+  color: #ff3f6c;
+  cursor: pointer;
+}
+
+.otp-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}

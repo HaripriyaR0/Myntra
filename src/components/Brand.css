@@ -1,0 +1,117 @@
+/* Section */
+.deals {
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+/* Heading */
+.deals h2 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+  color: #282c3f;
+}
+
+/* Carousel */
+.carousel-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.deals-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  display: flex;
+  gap: 16px;
+  min-width: 100%;
+}
+
+/* Card */
+.banner-card {
+  position: relative;
+  width: 20%;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #eaeaec;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect (Myntra feel 🔥) */
+.banner-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Image */
+.banner-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Overlay (white bottom box) */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #ffffff;
+  padding: 12px 10px;
+  text-align: center;
+}
+
+/* Brand row */
+.logo-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 600;
+  color: #282c3f;
+}
+
+/* Divider line */
+.line {
+  height: 1px;
+  background: #e0e0e0;
+  margin: 6px 0;
+}
+
+/* Description */
+.desc {
+  font-size: 13px;
+  color: #535766;
+  margin: 5px 0;
+}
+
+/* Offer */
+.overlay h2 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #000;
+}
+
+/* Dots */
+.dots {
+  text-align: center;
+  margin-top: 14px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  margin: 5px;
+  background-color: #d4d5d9;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.dot.active {
+  background-color: #282c3f;
+}

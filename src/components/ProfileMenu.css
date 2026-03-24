@@ -1,0 +1,62 @@
+.profile-menu {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 260px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  z-index: 999;
+  font-size: 13px;
+}
+
+/* TITLE */
+.profile-menu h4 {
+  margin-bottom: 5px;
+}
+
+/* SUBTEXT */
+.sub-text {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+.login-btn {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ff3f6c;
+  background: white;
+  color: #ff3f6c;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* LINES */
+.profile-menu hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+/* MENU ITEMS */
+.profile-menu p {
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+/* HOVER */
+.profile-menu p:hover {
+  font-weight: 600;
+}
+
+/* NEW TAG */
+.new {
+  background: #ff3f6c;
+  color: white;
+  font-size: 10px;
+  padding: 2px 5px;
+  margin-left: 5px;
+}

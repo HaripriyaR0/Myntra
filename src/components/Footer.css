@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 60px;
+  background-color: #fafbfc;
+  margin-top: 50px;
+}
+
+.footer-col h4 {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.footer-col p {
+  font-size: 13px;
+  color: #696b79;
+  margin: 6px 0;
+  cursor: pointer;
+}
