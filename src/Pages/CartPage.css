@@ -1,0 +1,145 @@
+/* Container */
+.cart-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Headings */
+.cart-container h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.cart-container h2 {
+  font-size: 22px;
+  margin: 20px 0 10px;
+  color: #555;
+}
+
+/* Products grid */
+.products {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+  border-radius: 5px;
+  transition: box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.product-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.product-card button {
+  background-color: #ff3f6c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.product-card button:hover {
+  background-color: #e6325b;
+}
+
+/* Cart items */
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.cart-item h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.cart-item p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Cart buttons */
+.cart-buttons button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-size: 13px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.cart-buttons button:nth-child(1) {
+  background-color: #28a745;
+  color: white;
+}
+
+.cart-buttons button:nth-child(1):hover {
+  background-color: #218838;
+}
+
+.cart-buttons button:nth-child(2) {
+  background-color: #ffc107;
+  color: #222;
+}
+
+.cart-buttons button:nth-child(2):hover {
+  background-color: #e0a800;
+}
+
+.cart-buttons button:nth-child(3) {
+  background-color: #dc3545;
+  color: white;
+}
+
+.cart-buttons button:nth-child(3):hover {
+  background-color: #c82333;
+}
+
+/* Empty cart */
+.empty-cart {
+  text-align: center;
+  color: #888;
+  margin-top: 20px;
+  font-size: 16px;
+}
