@@ -7,8 +7,8 @@ import Wishlist from "./components/Wishlist";
 
 // IMPORTANT: check file names EXACT
 import CategoryPage from "./Pages/CategoryPage";
-import ProductDetail from "./Pages/Productdetail";
 import CartPage from "./Pages/CartPage";
+import ProductDetails from "./Pages/ProductDetails";
 
 
 const Page = ({ name }) => <h1>{name} PAGE</h1>;
@@ -28,7 +28,7 @@ function App() {
        <Route path="/bag" element={<CartPage />} />
 
         {/* Product Detail Page */}
-        <Route path="/product/:id" element={< ProductDetail/>} />
+        <Route path="/product/:id" element={< ProductDetails/>} />
 
         {/* Dynamic Category Page (VERY IMPORTANT - keep last) */}
         <Route path="/:category" element={<CategoryPage />} />

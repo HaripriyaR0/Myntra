@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { allProducts } from "../data/allData";
 import "./ProductDetail.css";
 
-function ProductDetail() {
+function ProductDetails() {
   const { id } = useParams();
 
   const allItems = Object.values(allProducts).flat();
@@ -45,4 +45,4 @@ function ProductDetail() {
   );
 }
 
-export default ProductDetail;
+export default ProductDetails;
